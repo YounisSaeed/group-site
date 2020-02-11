@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user.apps.UserConfig',
     'blog.apps.BlogConfig',
+    'crispy_forms'.
 
 ]
 
@@ -130,3 +131,7 @@ STATIC_URL = '/static/'
 #    os.path.join(BASE_DIR, "static"),
 #    'E:\FCIH\GP\django\groupsite\static',
 #]
+
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrab4'
